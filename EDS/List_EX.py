@@ -31,7 +31,6 @@ class Queue: #Queue con lista
         self.head = self.queue.Head
         self.tail = self.queue.Head
 
-
     def Enqueue(self,e): #Senza sfruttare altri attributi non mi viene in mente come andare sotto O(n)..altrimenti sull'insert appoggerei la x su var locale
         x = List.ListObj(e)
         if self.queue.Head != None:
